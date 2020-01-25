@@ -7,4 +7,4 @@ tqdm==4.32.1
 apex==0.9.10dev
 protobuf==3.11.2
 scikit_learn==0.22.1
-google-cloud-translate
+google-cloud-translate==1.6.0
