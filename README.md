@@ -20,11 +20,17 @@ Paper link: https://arxiv.org/abs/1910.12840
 
 ## Table of Contents
 
-1. [Citation](#citation)
-2. [License](#license)
-3. [Usage](#usage)
-4. [Get Involved](#get-involved)
+1. [Updates](#updates)
+2. [Citation](#citation)
+3. [License](#license)
+4. [Usage](#usage)
+5. [Get Involved](#get-involved)
 
+## Updates
+#### 1/27/2020
+Updated manually annotated data files - fixed `filepaths` in misaligned examples.
+
+Updated model checkpoint files - recomputed evaluation metrics for fixed examples.
 
 ## Citation
 ```

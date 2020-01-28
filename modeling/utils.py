@@ -379,7 +379,6 @@ def pearson_and_spearman(preds, labels):
 def complex_metric(preds, labels, prefix=""):
     return {
         prefix + "bacc": balanced_accuracy_score(y_true=labels, y_pred=preds),
-        prefix + "acc":  accuracy_score(y_true=labels, y_pred=preds),
         prefix + "f1":   f1_score(y_true=labels, y_pred=preds, average="micro")
     }
 
