@@ -92,7 +92,7 @@ def main(args):
     if not args.augmentations or "date_swap" in args.augmentations:
         print("Creating date swap examples")
         dateswap_op = ops.DateSwap()
-        data_numswp = apply_transformation(data_positive, dateswap_op)
+        data_dateswp = apply_transformation(data_positive, dateswap_op)
         print("DateSwap %s example pairs." % len(data_dateswp))
 
         if args.save_intermediate:
