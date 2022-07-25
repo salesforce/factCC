@@ -25,4 +25,4 @@ python3 $CODE_PATH/run.py \
   --evaluate_during_training \
   --eval_all_checkpoints \
   --overwrite_cache \
-  --output_dir $OUTPUT_DIR/$MODEL_NAME-$TASK_NAME-train-$RANDOM/
+  --output_dir $OUTPUT_PATH/$MODEL_NAME-$TASK_NAME-train-$RANDOM/
