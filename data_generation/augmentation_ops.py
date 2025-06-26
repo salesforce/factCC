@@ -210,8 +210,8 @@ class PronounSwap(Transformation):
         self.class2pronoun_map = {
             "SUBJECT": ["you", "he", "she", "we", "they"],
             "OBJECT": ["me", "you", "him", "her", "us", "them"],
-            "POSSESSIVE": ["my", "your", "his", "her", "its", "out", "your", "their"],
-            "REFLEXIVE": ["myself", "yourself", "himself", "itself", "outselves", "yourselves", "themselves"]
+            "POSSESSIVE": ["my", "your", "his", "her", "its", "our", "your", "their"],
+            "REFLEXIVE": ["myself", "yourself", "himself", "itself", "ourselves", "yourselves", "themselves"]
         }
 
         self.pronoun2class_map = {pronoun: key for (key, values) in self.class2pronoun_map.items() for pronoun in values}
